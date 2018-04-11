@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18F78A3F-C689-4364-86C0-0A58212AA340}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LearnC</RootNamespace>
+    <AssemblyName>LearnC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Array.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Array.Designer.cs">
+      <DependentUpon>Array.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrayTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrayTest.Designer.cs">
+      <DependentUpon>ArrayTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicConcepts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicConcepts.Designer.cs">
+      <DependentUpon>BasicConcepts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicTest.Designer.cs">
+      <DependentUpon>BasicTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Certificate.Designer.cs">
+      <DependentUpon>Certificate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter.Designer.cs">
+      <DependentUpon>Chapter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionalStatements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConditionalStatements.Designer.cs">
+      <DependentUpon>ConditionalStatements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionalStatementsTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConditionalStatementsTest.Designer.cs">
+      <DependentUpon>ConditionalStatementsTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact.Designer.cs">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Function.Designer.cs">
+      <DependentUpon>Function.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionTest.Designer.cs">
+      <DependentUpon>FunctionTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LearnC.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LearnC.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loop.Designer.cs">
+      <DependentUpon>Loop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoopTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoopTest.Designer.cs">
+      <DependentUpon>LoopTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pointer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pointer.Designer.cs">
+      <DependentUpon>Pointer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointerTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PointerTest.Designer.cs">
+      <DependentUpon>PointerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestTopics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestTopics.Designer.cs">
+      <DependentUpon>TestTopics.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Array.resx">
+      <DependentUpon>Array.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArrayTest.resx">
+      <DependentUpon>ArrayTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicConcepts.resx">
+      <DependentUpon>BasicConcepts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicTest.resx">
+      <DependentUpon>BasicTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Certificate.resx">
+      <DependentUpon>Certificate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter.resx">
+      <DependentUpon>Chapter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConditionalStatements.resx">
+      <DependentUpon>ConditionalStatements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConditionalStatementsTest.resx">
+      <DependentUpon>ConditionalStatementsTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact.resx">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Function.resx">
+      <DependentUpon>Function.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionTest.resx">
+      <DependentUpon>FunctionTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoopTest.resx">
+      <DependentUpon>LoopTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointerTest.resx">
+      <DependentUpon>PointerTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestTopics.resx">
+      <DependentUpon>TestTopics.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="LearnC.dbml.layout">
+      <DependentUpon>LearnC.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loop.resx">
+      <DependentUpon>Loop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pointer.resx">
+      <DependentUpon>Pointer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="LearnC.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LearnC.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LearnC.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LearnC_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>LearnC.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\DSC_0645.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
