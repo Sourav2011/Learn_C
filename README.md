@@ -30,5 +30,6 @@ The goal was to create a simple e‑learning system focused on programming funda
 
   
 👤 Author
-Sourav Poddar
-AIUB(American International University Bangladesh)
+
+-Sourav Poddar
+-AIUB(American International University Bangladesh)
